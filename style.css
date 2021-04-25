@@ -10,8 +10,25 @@ footer {}
 
 /*main styles*/
 body{
-  background-color: black;
-  color: blueviolet;}
+  background: rgb(100,0,105);
+background: linear-gradient(90deg, rgba(100,0,105,1) 0%, rgba(0,100,120,1) 100%);
+color: #ffffff;
+}
+/*Box stuffs*/
+.box {
+display: flex;
+justify-content: center;
+width: 50%;
+height: 15%;
+border: solid #ffffff;
+padding: 50px;
+margin: 100px;
+}
+/*Pictors*/
+.pic {
+  display: flex;
+  justify-content: center;
+}
 main{
 
 }
