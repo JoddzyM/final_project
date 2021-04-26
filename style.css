@@ -32,6 +32,7 @@ margin: 10px;
 .boxr {
 display: flex;
 justify-content: center;
+flex-direction: row-reverse;
 width: 50%;
 height: 15%;
 border: 5px solid #ffffff;
@@ -44,6 +45,7 @@ box-align: end;
 .boxm {
 display: flex;
 justify-content: center;
+flex-direction: column;
 width: 50%;
 height: 15%;
 border: 5px solid #Ba00c2;
@@ -62,8 +64,13 @@ margin: 10px;
 }
 .picl{
   display: flex;
-  align-items: flex-start;
+  align-self: flex-end;
 }
+.picm{
+  display: flex;
+  align-self: center;
+}
+
 /*Navbar*/
 
 
@@ -98,21 +105,20 @@ margin: 10px;
   .active {
   background-color: #0189a3;
 }
-/*Links*/
-
+/*Links
 a:link{
   color: #ffffff;
 }
 a:visited{
-  color: #ffffff;
+  color: #ffff6c;
 }
-li a:hover{
+a:hover{
   color: #00d5ff;
 }
 a:active{
   color: #228da3;
 }
-
+*/
 }
 main{
 
