@@ -41,11 +41,28 @@ padding: 25px;
 margin: 10px;
 box-align: end;
 }
-
+.boxm {
+display: flex;
+justify-content: center;
+width: 50%;
+height: 15%;
+border: 5px solid #Ba00c2;
+outline: 5px solid #02a9c8;
+padding: 25px;
+margin: 10px;
+}
 /*Pictors*/
 .pic {
   display: flex;
   justify-content: center;
+}
+.picr{
+  display: flex;
+  align-items: flex-end;
+}
+.picl{
+  display: flex;
+  align-items: flex-start;
 }
 /*Navbar*/
 
@@ -80,6 +97,7 @@ box-align: end;
   }
   .active {
   background-color: #0189a3;
+}
 /*Links*/
 
 a:link{
