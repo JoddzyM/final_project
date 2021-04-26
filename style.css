@@ -80,6 +80,21 @@ box-align: end;
   }
   .active {
   background-color: #0189a3;
+/*Links*/
+
+a:link{
+  color: #ffffff;
+}
+a:visited{
+  color: #ffffff;
+}
+li a:hover{
+  color: #00d5ff;
+}
+a:active{
+  color: #228da3;
+}
+
 }
 main{
 
