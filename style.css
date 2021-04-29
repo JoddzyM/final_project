@@ -68,7 +68,7 @@ margin: 10px;
 }
 .picm{
   display: flex;
-  align-self: center;
+  justify-content: center;
 }
 
 /*Navbar*/
